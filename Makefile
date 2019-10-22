@@ -32,4 +32,5 @@ test_bin/memalloc_test: test/memalloc_test.c
 test_bin/:
 	mkdir test_bin
 
-clean:;
+clean:
+	-rm -r obj
